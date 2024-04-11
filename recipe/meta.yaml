@@ -19,7 +19,7 @@ requirements:
     - python >=3.6,<3.12
     - setuptools
     - wheel
-    - xsdata >=22.12,<23
+    - xsdata >22
     - jinja2 >=2.11.0
     - nose >=1.0
     - pip
