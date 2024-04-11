@@ -12,20 +12,20 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
     - python >=3.6,<3.12
     - setuptools
     - wheel
-    - xsdata
+    - xsdata >22
     - jinja2 >=2.11.0
     - nose >=1.0
     - pip
   run:
     - python >=3.6,<3.12
-    - xsdata >=22.12
+    - xsdata >=22.12,<23
     - numpy >=1.22.0
     - h5py >=2.3
 
